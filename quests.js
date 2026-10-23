@@ -18,7 +18,7 @@ export const QUESTS = [
     id: "q2",
     title: "Library Explorer",
     place: "Jungseok Library (정석학술정보관)",
-    lat: 37.449261, lng: 126.652622,,
+    lat: 37.449261, lng: 126.652622,
     radius: 50, points: 15, available: true,
     task: "Visit the library lobby and check in near the entrance gates.",
   },
