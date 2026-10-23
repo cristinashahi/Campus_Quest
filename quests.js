@@ -10,7 +10,7 @@ export const QUESTS = [
     id: "q1",
     title: "Back Gate Check-in",
     place: "Inha University Back Gate (후문)",
-    lat: 37.447556, lng: 126.653105,
+    lat: 37.451120, lng: 126.656422,
     radius: 50, points: 10, available: true,
     task: "Go to the back gate entrance and check in at the gate.",
   },
