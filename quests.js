@@ -25,8 +25,8 @@ export const QUESTS = [
   {
     id: "q3",
     title: "Lakeside Break",
-    place: "Inha Lake (인하호수)",
-    lat: 37.449770, lng: 126.655851,
+    place: "Inkyung Lake (인경호)",
+    lat: 37.449832, lng: 126.656275,
     radius: 60, points: 10, available: true,
     task: "Walk to the lake and check in at the bench area.",
   },
