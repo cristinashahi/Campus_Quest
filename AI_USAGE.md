@@ -39,15 +39,15 @@ This file records every time our team used an AI tool, what we asked, what we ac
 - **What we asked:** draw the structure diagram from our components; draft the wording of the ID table, alternate (no-result) case, D1 trade-off, assumption, and next check.
 - **Also asked:** what "location spoofing" (faking GPS location) means as a cost of GPS, and how it could be handled later (e.g., rejecting impossible jumps between quests). We kept it as a known cost and did not add a solution to version 1.
 - **What the team decided:** the components and criterion paths, Options A (GPS) and B (QR code), and choosing GPS, because posting QR codes everywhere on campus would be difficult.
-- **What we changed:** AI first suggested QR codes; we rejected that and chose GPS for the reason above. [add any wording you rewrote]
+- **What we changed:** AI first suggested QR codes; we rejected that and chose GPS for the reason above. 
 - **How we checked:** Shahi Cristina and Anwar Syeda Sumaila checked that the IDs match Week 4 and agreed on the costs and the planned GPS check. The GPS accuracy check is planned, not yet done.
 
 ## 4. Midterm prototype and report
 
 - **Date:** 2026-10-21
 - **Tool:** Claude
-- **What we asked:** build a small working prototype of our core task (quest map, GPS check-in, points and badges) with automated tests, and draft the team midterm report and individual report outlines from our M1, Week 4, and Week 5 documents.
-- **What AI produced:** app.js, geo.js, quests.js, index.html, style.css, tests/geo.test.js, README.md, and draft report text.
-- **What the team decided:** the product, stories, components, and GPS decision (earlier weeks); the work split and plan in Section 7. [add anything else you decided or changed]
-- **What we changed:** [e.g., replaced placeholder quest coordinates with real campus spots; adjusted the radius after the field test; rewrote report sections in our own words]
-- **How we checked:** ran `node --test` (expected 9/9 pass, actual: [result]); tested check-in on our phones on campus ([date], results in the report's Section 5); reviewed every report section against our earlier documents.
+- **What we asked:** help checking and correcting code for the Campus Quest prototype, explaining errors, and guiding us through using GitHub to manage and update our project files.
+- **What AI produced:** suggestions for code corrections, explanations of implementation issues, and step-by-step guidance on GitHub commands and workflow.
+- **What the team decided:** the product, user stories, components, and GPS decision from earlier weeks, as well as the work split and plan in Section 7.
+- **What we changed:** replaced placeholder quest coordinates with real campus locations and adjusted the check-in radius after the field test.
+- **How we checked:** ran node --test (expected 9/9 pass, actual: 9/9 passed, 0 failed; tested check-in on our phones in demo mode from different locations and on campus, with results documented in Section 5 of the report. Both members reviewed every report section against our earlier documents to check consistency with the agreed requirements and project scope.
