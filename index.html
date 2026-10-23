@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Quest</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Campus Quest</h1>
+    <div id="score" aria-live="polite">0 pts</div>
+  </header>
+
+  <!-- Quest Map UI: S1-AC1 (map shows selectable quest locations) -->
+  <div id="map" aria-label="Campus quest map"></div>
+
+  <main>
+    <!-- S1-AC2: quest details for the selected location -->
+    <section id="details" class="card">
+      <p class="muted">Tap a quest marker or pick one from the list.</p>
+    </section>
+
+    <!-- S2-AC1 / S2-AC2: check-in result, points and badge progress -->
+    <section id="result" class="card hidden" aria-live="polite"></section>
+
+    <section class="card">
+      <h2>Quests</h2>
+      <ul id="quest-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Badges</h2>
+      <div id="badges"></div>
+    </section>
+
+    <section class="card small">
+      <label><input type="checkbox" id="demo"> Demo mode: pretend I am standing at the selected quest</label>
+      <p class="muted">Demo mode is a <b>simulated location</b> for classroom demos. Real check-ins use the phone's GPS.</p>
+      <p class="muted">Privacy: your location is read only when you press <i>Check in</i> and is never saved. Only completed quest IDs and points are stored on this device.</p>
+      <button id="reset" class="link">Reset my progress</button>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

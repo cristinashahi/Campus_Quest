@@ -1,0 +1,9 @@
+{
+  "name": "campus-quest",
+  "version": "0.1.0",
+  "description": "Campus Quest midterm prototype (ISE4133, Team Rocket)",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
