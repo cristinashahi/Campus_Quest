@@ -42,7 +42,7 @@ export const QUESTS = [
     id: "q5",
     title: "Festival Stage (closed)",
     place: "Student Union area",
-    lat: 37.450328, lng: 126.655988,
+    lat: 37.449189, lng: 126.656106,
     radius: 50, points: 20, available: false,
     task: "Only open during festival week — used to test the 'unavailable' case.",
   },
