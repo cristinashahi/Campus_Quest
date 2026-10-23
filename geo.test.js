@@ -2,7 +2,7 @@
 // Run with:  node --test   (or: npm test)
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { distanceMeters, checkIn, completeQuest, nextBadge } from "../geo.js";
+import { distanceMeters, checkIn, completeQuest, nextBadge } from "./geo.js";
 
 const quest = { id: "q1", lat: 37.4503, lng: 126.6536, radius: 50, points: 10, available: true };
 
